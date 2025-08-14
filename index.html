@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Mother's Poems</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="book-container">
+    <h1 id="title">Poem 1</h1>
+    <div class="page-wrapper">
+      <img id="poem-image" src="images/poem (1).jpg" alt="Poem Page" oncontextmenu="return false;" />
+    </div>
+    <div id="page-number">Page 1 of 100</div>
+	<div>------------------------------------</div>
+	<button id="fullscreen-toggle">🔲 Fullscreen</button>
+  </div>
+
+  <div class="nav-arrow left" onclick="prevPage()">❮</div>
+  <div class="nav-arrow right" onclick="nextPage()">❯</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
